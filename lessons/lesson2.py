@@ -54,7 +54,8 @@ class Game2(Game):
       super().run()
       self.stop()
 
-
+   def __str__(self):
+      return f'{self.age} {super().__str__()}'
 game22=Game2('flappybird',29)
 # game22.run()
 print(game22)
