@@ -1,6 +1,6 @@
 #принципы ООП
 # class: atr,methad,dmethod
-
+import random
 
 
 def a(b,c):...
@@ -49,6 +49,7 @@ class Game2(Game):
       self.age=age
    def stop(self):
       print(self.name,' stop')
+
       # DRY
    def run(self):
       super().run()
@@ -57,5 +58,10 @@ class Game2(Game):
    def __str__(self):
       return f'{self.age} {super().__str__()}'
 game22=Game2('flappybird',29)
+Game2.run(game22)
+Game2.run(game22)
+game22.run()
+game22.name='starwars'
 # game22.run()
 print(game22)
+game1.__init_subclass__()

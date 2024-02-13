@@ -1,17 +1,18 @@
-git init
-git remote add origin link
+git init - включения гита 1 раз
+git remote add origin link - подключение к репозиторию 1 раз
 
-.gitignore
+.gitignore - файл для скрытиЯ файлов
 
-git add ./namefile
-git commit -m 'lesson1'
-git push origin main/master
-
-
-
-git rm --cached
+git add ./namefile - добовление файлов в гит всегда при обновлении проекта
+git commit -m 'lesson1' - чекпоинт всегда
+git push origin main/master - отправка кода в репозиторий
 
 
-git clone
 
-git remote remove origin
+git rm remove --cached: удаление ненужныйх файлов
+
+
+git clone: копирует существующий репозиторий
+
+git remote remove origin: отвязывает сущ реп от проекта
+
