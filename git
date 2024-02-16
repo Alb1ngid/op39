@@ -9,10 +9,17 @@ git push origin main/master - отправка кода в репозитори�
 
 
 
-git rm remove --cached: удаление ненужныйх файлов
+git remote remove --cached: удаление ненужныйх файлов
 
 
 git clone: копирует существующий репозиторий
 
 git remote remove origin: отвязывает сущ реп от проекта
 
+git branch
+git branch name
+git checkout name
+git checkout -b name
+git merge name
+
+git pull
